@@ -2,6 +2,7 @@ use core::circuit::u384;
 use garaga::definitions::G1Point;
 use garaga::ec_ops::ec_safe_add;
 
+#[executable]
 fn main(mut n: u64) {
 
     // x-coordinate of generater of SECP256K1
